@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: red;
+}
+
+body {
+    background-color: black;
+}
+
+.subtitulo {
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    background-color: red;
+}
+
+.logo-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown button {
+    display: flex;
+    width: 80px;
+    height: 25px;
+    padding: 2px; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 200%;
+    overflow: auto;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: red;
+    padding: 0,5rem;
+    text-decoration: none;
+    background-color: black
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leyenda strong {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: red;
+}
+
+.destacadas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.contacto {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    color: white;
+    align-items: center;
+}
+
+.form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+}
+
+.banners img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 100%;
+
+}
+
+.footer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 1%
+}
+
+.redes {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+.redes a {
+    padding: 1%;
+    margin: 1px;
+}
