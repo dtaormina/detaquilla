@@ -15,45 +15,87 @@
 
 <body>
     <header>
-        <div class="logo-menu">
-            <nav>
-                <div class="dropdown">
-                    <button><a href="../index.html"><i class="fa-solid fa-bars"></i> Inicio</a></button>
-                    <div class="dropdown-content">
-                        <a href="../pages/peliculas.html"><i class="fa-solid fa-clapperboard"></i> Peliculas</a>
-                        <a href="../pages/series.html"><i class="fa-solid fa-film"></i> Series</a>
-                        <a href="../pages/avances.html"><i class="fa-solid fa-video"></i> Avances</a>
-                        <a href="../pages/contacto.html"><i class="fa-solid fa-user"></i> Contacto</a>
+            <!-- Navbar inicia-->
+            <nav class="navbar bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"> Home </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <a class="nav-link" href="../pages/contacto.html"><i class="fa-solid fa-user"></i> Contacto </a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../pages/peliculas.html"><i
+                                            class="fa-solid fa-clapperboard"></i> Peliculas </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../pages/series.html"><i
+                                            class="fa-solid fa-film"></i> Series </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../pages/avances.html"><i
+                                            class="fa-solid fa-video"></i> Avances </a>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Pelicula o Serie"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </nav>
-            <img src="../images/logo.jpeg" alt="logo" width="200" height="200">
-        </div>
+            <!-- Navbar fin-->
+            <!-- Logo inicia-->
+            <div class="container logo">
+                <a href="../index.html"><img src="../images/logo.jpeg" alt="logo" width="200" height="200"></a>
+            </div>
+            <!-- Logo fin-->
     </header>
     <main>
+        <!-- Banners inicia-->
         <div class="banners">
             <a href="https://youtu.be/i9VSSbXb0N4" target="_blank"><img src="../images/banner-uno.png" alt="imagen"></a><br>
             <a href="https://youtu.be/a-JrjnT_678" target="_blank"><img src="../images/banner-dos.png" alt="imagen"></a>
         </div>
-        <h2 class="subtitulo">Series del momento</h2>
-        <div class="video">
-            <figure>
+        <!-- Banners fin-->
+        <!-- Series inicia-->
+        <div class="container">
+            <div class="row">
+                <h2 class="subtitulo">Series del momento</h2>
+            </div>
+        </div>   
+
+        <section>
+            <div class="video">
+                <figure>
                 <figcaption class="leyenda"><strong>Invasion secreta - Trailer</strong></figcaption>
                 <iframe width="360" height="225" src="https://www.youtube.com/embed/sQY6Umchw2M"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </figure>
-            <figure>
+                </figure>
+                <figure>
                 <figcaption class="leyenda"><strong>La Casa del Dragón - Trailer</strong></figcaption>
                 <iframe width="360" height="225" src="https://www.youtube.com/embed/ZYKsOW5dqhs"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            </figure>
-        </div>
+                </figure>
+            </div>
+        </section>
+        <!-- Series fin-->
     </main>
     <hr>
+    <!-- Pie de página inicia-->
     <footer>
         <p class="footer">Hecho con <i class="fa-solid fa-heart"></i> por Daniel Taormina</p>
         <div class="redes">
@@ -63,8 +105,8 @@
             <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </footer>
+    <!-- Pie de página fin-->
     <!-- JavaScript Bundle with Popper -->
     <script src="../js/bootstrap.min.js"></script>
 </body>
-
 </html>

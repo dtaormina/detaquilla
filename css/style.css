@@ -14,64 +14,35 @@ body {
     background-color: black;
 }
 
-.subtitulo {
-    display: flex;
-    color: #FFFFFF;
-    justify-content: center;
-    background-color: red;
-}
-
-.logo-menu {
+.logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 
 }
 
-.logo-menu nav {
+.banners img {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    list-style: none;
-    margin-left: 10px;
-
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    width: 100%;
+    margin-top: 1rem;
 }
 
-.dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-.dropdown button {
+.subtitulo {
     display: flex;
-    width: 80px;
-    height: 25px;
-    padding: 2px; 
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    width: 200%;
-    overflow: auto;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content a {
-    display: block;
-    color: red;
-    padding: 0,5rem;
-    text-decoration: none;
-    background-color: black
-}
-
-.dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:black;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.2rem;
+    margin-bottom: 2rem;
 }
 
 .video {
@@ -84,14 +55,14 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: red;
+    color: #FFFFFF;
 }
 
 .destacadas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 10px;
+    margin: 5px;
 }
 
 .contacto {
@@ -126,31 +97,28 @@ body {
     cursor: pointer;
 }
 
-.banners img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: content-box;
-    width: 100%;
-
-}
-
 .footer {
     display: flex;
     color: white;
+    background-color: red;
     justify-content: center;
-    padding-top: 1%
+    padding: 0.5rem;
+    margin: 5px;
 }
+
+.footer i {
+    margin: 0.25rem;
+    }
 
 .redes {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    padding: 1%;
+    padding: 0.5rem;
 }
 
 .redes a {
-    padding: 1%;
-    margin: 1px;
+    display: flex;
+    padding: 0.5rem;
+    margin: 5px;
 }
