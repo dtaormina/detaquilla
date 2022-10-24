@@ -16,18 +16,20 @@
 <body>
     <header>
         <!-- Navbar inicia-->
-        <nav class="navbar bg-light fixed-top">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"> Home </a>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpeg" alt="logo" width="50"
+                        height="50">detaquilla.com</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
                         <a class="nav-link" href="../pages/contacto.html"><i class="fa-solid fa-user"></i> Contacto </a>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -47,18 +49,13 @@
                         <form class="d-flex mt-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Pelicula o Serie"
                                 aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            <button class="btn btn-outline-danger" type="submit">Buscar</button>
                         </form>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- Navbar fin-->
-        <!-- Logo inicia-->
-        <div class="container logo">
-            <a href="../index.html"><img src="../images/logo.jpeg" alt="logo" width="200" height="200"></a>
-        </div>
-        <!-- Logo fin-->
     </header>
     <main>
         <!-- formulario inicia-->
@@ -72,14 +69,15 @@
 
                     <label>Apellido:</label>
                     <input type="text" placeholder="Tu apellido">
-                    
+
                     <label for="email">Email:</label>
                     <input id="email" placeholder="Tu correo electrónico">
-                    
+
                     <label for="tel">Teléfono</label>
                     <input id="tel" placeholder="Tu número de teléfono celular">
                     <p>Comentario</p>
-                    <p><textarea name="comentario" rows="5" cols="75" placeholder="Escribí lo que quieras"></textarea></p>
+                    <p><textarea name="comentario" rows="5" cols="75" placeholder="Escribí lo que quieras"></textarea>
+                    </p>
                     <button>Enviar</button>
                 </fieldset>
             </form>

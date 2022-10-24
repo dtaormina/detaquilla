@@ -1,28 +1,40 @@
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 a,
 a:active {
+
     text-decoration: none;
     color: red;
+
 }
 
 body {
+
     background-color: black;
+
 }
 
 .logo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
 
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    
+}
+
+.banners {
+
+    margin-top: 7rem;
 }
 
 .banners img {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,9 +42,11 @@ body {
     box-sizing: content-box;
     width: 100%;
     margin-top: 1rem;
+
 }
 
 .subtitulo {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,71 +57,98 @@ body {
     padding: 1rem;
     margin: 0.2rem;
     margin-bottom: 2rem;
+
 }
 
 .video {
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
 }
 
 .leyenda strong {
+
     display: flex;
     align-items: center;
     text-align: center;
     color: #FFFFFF;
 }
+    
+.cards {
 
-.destacadas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5px;
+
 }
 
+.img-destacada {
+
+    height: 15.25rem;
+
+}
+
+
 .contacto {
+
     display: flex;
+    margin-top: 5rem;
     color: white;
     justify-content: center;
+    text-align: center;
+    align-items: center;
+
 }
 
 .form {
-    width: 100%;
-    max-width: 600px;
-    color: white;
-    margin: 0 auto;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 600px;
+    color: white;
+    margin: auto;
+
 }
 
 .form input {
+
     width: 90%;
     height: 30px;
     margin: 0.5rem;
-    color: white;
+    color: black;
     align-items: center;
+
 }
 
 .form button {
+
     padding: 0.5em 1em;
     border: none;
     background: rgb(100, 200, 255);
     cursor: pointer;
+
 }
 
 .footer {
+
     display: flex;
     color: white;
     background-color: red;
     justify-content: center;
     padding: 0.5rem;
     margin: 5px;
+
 }
 
 .footer i {
+
     margin: 0.25rem;
+
     }
 
 .redes {
@@ -118,7 +159,9 @@ body {
 }
 
 .redes a {
+
     display: flex;
     padding: 0.5rem;
     margin: 5px;
+
 }
