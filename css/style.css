@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Quantico&display=swap');
+
 * {
 
     margin: 0;
@@ -16,21 +18,48 @@ a:active {
 
 body {
 
-    background-color: black;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .logo {
 
-    width: 4rem;
-    height: 4rem;
-    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.25rem;
     
+}
+
+.navbar-brand {
+
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1em;
+    color: red;
+}
+
+.navbar-toggler-icon {
+
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
+.nav-link {
+
+    font-family: 'Quantico', sans-serif;
+
+}
+
+.btn {
+
+    font-family: 'Quantico', sans-serif;
 }
 
 .banners {
 
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .banners img {
@@ -40,8 +69,8 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: content-box;
+    border: solid 1px;
     width: 100%;
-    margin-top: 1rem;
 
 }
 
@@ -51,11 +80,13 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 24px;
     color:black;
     background-color:whitesmoke;
     border-radius: 10px;
-    padding: 1rem;
-    margin: 0.2rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 
 }
@@ -65,17 +96,51 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-}
-
-.leyenda strong {
-
-    display: flex;
+    justify-items: center;
     align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-}
     
+}
+
+.video-titulo {
+
+    font-family: 'Quantico', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+
+}
+
+.video-formato {
+    
+    width: 18rem;
+    height: 13,75rem;
+    border: solid whitesmoke 2px;
+    transition: width 1s; height: 2s;
+    
+}
+
+.video-formato:hover {
+
+    width: 19.5rem;
+    height: 14rem;
+    border: solid 1px red
+
+}
+.card {
+
+    width: 180px;
+    height: 280px;
+    transition: width 1s; height: 2s;
+
+}
+
+.card:hover {
+
+    width: 190px;
+    height: 290px;
+    background-color: black;
+
+}
+
 .cards {
 
     display: flex;
@@ -83,13 +148,6 @@ body {
     justify-content: space-around;
 
 }
-
-.img-destacada {
-
-    height: 15.25rem;
-
-}
-
 
 .contacto {
 
@@ -134,11 +192,12 @@ body {
 
 }
 
+
 .footer {
 
     display: flex;
-    color: white;
-    background-color: red;
+    font-family: 'Quantico', sans-serif;
+    color: whitesmoke;
     justify-content: center;
     padding: 0.5rem;
     margin: 5px;
@@ -148,20 +207,30 @@ body {
 .footer i {
 
     margin: 0.25rem;
+    color: red;
 
     }
 
-.redes {
+.footer-redes {
+
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     padding: 0.5rem;
+
 }
 
-.redes a {
+.footer-redes a {
 
     display: flex;
     padding: 0.5rem;
     margin: 5px;
+    color: whitesmoke;
+    
+}
+
+.footer-redes a:hover {
+
+    color: red;
 
 }
