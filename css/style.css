@@ -18,9 +18,12 @@ a:active {
 
 body {
 
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -29,7 +32,7 @@ body {
     width: 3rem;
     height: 3rem;
     margin-right: 0.25rem;
-    
+
 }
 
 .navbar-brand {
@@ -43,7 +46,7 @@ body {
 
     width: 1.5rem;
     height: 1.5rem;
-    
+
 }
 
 .nav-link {
@@ -82,8 +85,8 @@ body {
     text-align: center;
     font-family: 'Bungee Shade', cursive;
     font-size: 24px;
-    color:black;
-    background-color:whitesmoke;
+    color: black;
+    background-color: whitesmoke;
     border-radius: 10px;
     padding: 0.5rem;
     margin-top: 2rem;
@@ -98,7 +101,7 @@ body {
     justify-content: space-around;
     justify-items: center;
     align-items: center;
-    
+
 }
 
 .video-titulo {
@@ -110,12 +113,13 @@ body {
 }
 
 .video-formato {
-    
+
     width: 18rem;
-    height: 13,75rem;
+    height: 13, 75rem;
     border: solid whitesmoke 2px;
-    transition: width 1s; height: 2s;
-    
+    transition: width 1s;
+    height: 2s;
+
 }
 
 .video-formato:hover {
@@ -123,13 +127,14 @@ body {
     width: 19.5rem;
     height: 14rem;
     border: solid 1px red
-
 }
+
 .card {
 
     width: 180px;
     height: 280px;
-    transition: width 1s; height: 2s;
+    transition: width 1s;
+    height: 2s;
 
 }
 
@@ -146,52 +151,186 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.plataformas {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
 
 }
 
-.contacto {
+.lista {
 
     display: flex;
-    margin-top: 5rem;
-    color: white;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
     align-items: center;
 
 }
 
-.form {
+.lista-item {
+
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: whitesmoke;
+    width: 220px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+
+}
+
+.item {
+
+    font-family: 'Quantico', sans-serif;
+    font-size: 1em;
+
+}
+
+.item:hover {
+
+    transform: translate(2px, 0);
+
+}
+
+.item a {
+
+    color: black;
+}
+
+.contacto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7rem 0;
+
+}
+
+.titulo-contacto {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Quantico', sans-serif;
+    font-size: 1.5em;
+
+}
+
+.main-contacto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 10px 0;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.subtitulo-contacto {
+
+    margin: 10px 0;
+    color: whitesmoke;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+
+}
+
+.contenido-contacto {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.estilo-contacto {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 600px;
-    color: white;
-    margin: auto;
+    justify-items: center;
 
 }
 
-.form input {
+.label {
 
-    width: 90%;
-    height: 30px;
-    margin: 0.5rem;
     color: black;
-    align-items: center;
+    text-align: center;
+    width: 300px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 500;
+}
+
+.input {
+
+    display: block;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 10px 0;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+    border: 1px solid red;
 
 }
 
-.form button {
+.btn-contacto {
 
-    padding: 0.5em 1em;
+    outline: none;
+    color: whitesmoke;
     border: none;
-    background: rgb(100, 200, 255);
-    cursor: pointer;
+    background-color: red;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 500;
 
 }
 
+.btn-contacto:hover {
+
+    background-color: black;
+}
 
 .footer {
 
@@ -209,7 +348,7 @@ body {
     margin: 0.25rem;
     color: red;
 
-    }
+}
 
 .footer-redes {
 
@@ -226,11 +365,56 @@ body {
     padding: 0.5rem;
     margin: 5px;
     color: whitesmoke;
-    
+
 }
 
 .footer-redes a:hover {
 
     color: red;
+
+}
+
+@media screen and (min-width:320px) and (max-width:500px) {
+
+
+    .contenido-contacto {
+
+        width: min-content;
+        padding:20px 0 0 0;
+        margin: 0;
+        font-size: 1em
+
+
+    }
+    
+    .main-contacto {
+
+        width: min-content;
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+    
+    }
+
+    .titulo-contacto {
+
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width:800px) {
+
+    .contenido-contacto {
+
+        width: min-content;
+        font-size: 1em;
+
+    }
+
+    .titulo-contacto {
+
+        font-size: 1em;
+    }
 
 }
