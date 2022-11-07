@@ -1,0 +1,32 @@
+.video {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+    &-titulo {
+
+        font-family: 'Quantico', sans-serif;
+        font-size: 16px;
+        color: whitesmoke;
+
+    }
+
+    &-formato {
+
+        width: 18rem;
+        height: 13, 75rem;
+        border: solid whitesmoke 2px;
+        transition: width 1s;
+        height: 2s;
+
+        &:hover {
+
+            width: 19.5rem;
+            height: 14rem;
+            border: solid 1px red
+        }
+    }
+}

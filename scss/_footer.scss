@@ -1,0 +1,38 @@
+.footer {
+
+    display: flex;
+    font-family: 'Quantico', sans-serif;
+    color: whitesmoke;
+    justify-content: center;
+    padding: 0.5rem;
+    margin: 5px;
+
+    i {
+
+        margin: 0.25rem;
+        color: red;
+
+    }
+
+    &-redes {
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    &-redes a {
+
+        display: flex;
+        padding: 0.5rem;
+        margin: 5px;
+        color: whitesmoke;
+
+        &:hover {
+
+            color: red;
+
+        }
+    }
+}
