@@ -4,10 +4,7 @@
 
     img {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     box-sizing: content-box;
     border: solid 1px;
     width: 100%;

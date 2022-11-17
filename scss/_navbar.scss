@@ -3,9 +3,9 @@
     display: flex;
     flex-direction: row;
     text-align: justify;
-    font-family: 'Bungee Shade', cursive;
+    font-family: $tipografia-destacada;
     font-size: 1em;
-    color: red;
+    color: $color-destacado;
 
     .logo {
 
@@ -26,7 +26,7 @@
 
 .nav-link .form-control .btn-outline-danger {
 
-    font-family: 'Quantico', sans-serif;
+    font-family: $tipografia-base;
 
 
 }

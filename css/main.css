@@ -13,7 +13,7 @@
   justify-content: center;
   text-align: center;
   color: whitesmoke;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   font-size: 1.5em; }
 
 .subtitulo {
@@ -21,8 +21,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: 'Bungee Shade', cursive;
-  font-size: 24px;
+  font-family: "Bungee Shade", cursive;
+  font-size: 1.5em;
   color: black;
   background-color: whitesmoke;
   border-radius: 10px;
@@ -43,19 +43,14 @@
   border-radius: 10px;
   margin: 10px;
   padding: 10px; }
-  .plataformas .lista {
+  .plataformas .lista, .plataformas .lista .lista-item {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    text-align: center;
-    align-items: center; }
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
     .plataformas .lista .lista-item {
-      display: flex;
       list-style: none;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
       background-color: whitesmoke;
       width: 220px;
       border-radius: 10px;
@@ -63,7 +58,7 @@
       padding: 10px;
       box-shadow: 0 5px 10px black; }
       .plataformas .lista .lista-item .item {
-        font-family: 'Quantico', sans-serif;
+        font-family: "Quantico", sans-serif;
         font-size: 1em; }
         .plataformas .lista .lista-item .item:hover {
           transform: translate(2px, 0); }
@@ -86,9 +81,9 @@
 
 .contacto {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 7rem 0; }
 
 .main-contacto {
@@ -110,7 +105,7 @@
 .subtitulo-contacto {
   margin: 10px 0;
   color: whitesmoke;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   text-align: center; }
 
 .contenido-contacto {
@@ -136,7 +131,7 @@
   color: black;
   text-align: center;
   width: 300px;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   font-weight: 500; }
 
 .input {
@@ -145,7 +140,7 @@
   border-radius: 5px;
   font-size: 1em;
   margin: 10px 0;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   text-align: center;
   outline: none;
   padding: 10px;
@@ -160,7 +155,7 @@
   text-transform: uppercase;
   padding: 10px;
   border-radius: 5px;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   font-weight: 500; }
   .btn-contacto:hover {
     background-color: black; }
@@ -169,7 +164,7 @@
   display: flex;
   flex-direction: row;
   text-align: justify;
-  font-family: 'Bungee Shade', cursive;
+  font-family: "Bungee Shade", cursive;
   font-size: 1em;
   color: red; }
   .navbar-brand .logo {
@@ -182,15 +177,15 @@
   height: 1.5rem; }
 
 .nav-link .form-control .btn-outline-danger {
-  font-family: 'Quantico', sans-serif; }
+  font-family: "Quantico", sans-serif; }
 
 .banners {
   margin-top: 5rem; }
   .banners img {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     box-sizing: content-box;
     border: solid 1px;
     width: 100%; }
@@ -202,7 +197,7 @@
   justify-items: center;
   align-items: center; }
   .video-titulo {
-    font-family: 'Quantico', sans-serif;
+    font-family: "Quantico", sans-serif;
     font-size: 16px;
     color: whitesmoke; }
   .video-formato {
@@ -218,7 +213,7 @@
 
 .footer {
   display: flex;
-  font-family: 'Quantico', sans-serif;
+  font-family: "Quantico", sans-serif;
   color: whitesmoke;
   justify-content: center;
   padding: 0.5rem;

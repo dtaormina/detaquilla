@@ -1,8 +1,8 @@
 .footer {
 
     display: flex;
-    font-family: 'Quantico', sans-serif;
-    color: whitesmoke;
+    font-family: $tipografia-base;
+    color: $color-base;
     justify-content: center;
     padding: 0.5rem;
     margin: 5px;
@@ -10,7 +10,7 @@
     i {
 
         margin: 0.25rem;
-        color: red;
+        color: $color-destacado;
 
     }
 
@@ -27,11 +27,11 @@
         display: flex;
         padding: 0.5rem;
         margin: 5px;
-        color: whitesmoke;
+        color: $color-base;
 
         &:hover {
 
-            color: red;
+            color: $color-destacado;
 
         }
     }
